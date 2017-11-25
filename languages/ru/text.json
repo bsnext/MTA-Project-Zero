@@ -147,6 +147,26 @@
 	"building_created_point":						"Точка строительства успешно установлена",
 	"building_replaced_point":						"Точка строительства успешно перемещена",
 	"building_in_vehicle":							"Вы не можете построить объект находясь в транспортном средстве",
+	
+	"building_rules_so_close":						"Постройки расположены слишком близко",
+	
+	"building_rules_floor_sky":						"Постройка должна располагаться под открытым небом",
+	"building_rules_floor_placed":					"Постройка должна быть надёжно закреплена в поверхности",
+	"building_rules_floor_can_not_here":			"Постройка не может быть установлена поверх другой постройки",
+	
+	"building_rules_roof_sky":						"Постройка не может висеть без точки опоры",
+	"building_rules_roof_not_enough_points":		"Недостаточно точек опоры для постройки",
+	
+	"building_rules_wall_placed":					"Постройка должна быть надёжно закреплена на поверхности",
+	"building_rules_wall_can_not_here":				"Постройка не может быть установлена в этом месте",
+	"building_rules_wall_not_exactly":				"Постройка должна быть установлена ровно",
+	
+	"building_rules_door_placed":					"Постройка должна быть надёжно закреплена между проёмом и основанием",
+	"building_rules_door_no_down":					"Постройка должна быть надёжно закреплена на поверхности",
+	"building_rules_door_no_top":					"Постройка должна быть надёжно закреплена в проёме",
+	"building_rules_door_not_exactly":				"Постройка должна быть установлена ровно в проёме",
+	
+	"building_perfect":								"Отлично! Теперь вы можете закончить строительство, нажав \"Enter\"",
 
 	"craft_title":									"КРАФТ",
 	"craft_batnails_rule_hammer":					"Для крафта биты с гвоздями нужен молоток",
@@ -159,17 +179,53 @@
 	"donate_price":									"Цена",
 	"donate_buy_error":								"Недостаточно средств для покупки",
 	"donate_givecar":								"Вы действительно хотите отдать ключ от этого транспорта?\nБудьте внимательны - вы потеряете все права на этот транспорт.\nАдминистрация не несёт ответственности за ваши действия.",
+	"donate_balance":								"Текущий баланс: %d рублей",
+	
+	"donate_respawner_cant_buy_enemy_building":		"Вы не можете выбрать точку респауна на территории чужой постройки",
+
 	"donate_givecar_done":							"Вы отдали ключ от этого транспорта",
 	"donate_givecar_up":							"Вам отдали ключ от транспорта",
-	"donate_balance":								"Текущий баланс: %d рублей",
+
+	"kit_build_purchase":							"Вы приобрели набор строителя",
+	"kit_military_purchase":						"Вы приобрели военный набор",
+	"kit_upper_purchase":							"Вы приобрели набор улучшений",
+	"kit_nails_purchase":							"Вы приобрели коробку гвоздей",
+	"kit_buildpak_purchase":						"Вы приобрели комплект для постройки",
+
+	"donate_kit_cant_invehicle":					"Вы не можете приобрести набор находясь в транспорте",
+	"donate_building_not_exists":					"У вас не установлена точка строительства",
+
+	"donate_vehicle_cant_buy_inwater":				"Вы не можете приобрести транспорт находясь в воде",
+	"donate_vehicle_cant_buy_inhome":				"Вы не можете приобрести транспорт находясь в помещении",
+	"donate_vehicle_cant_buy_invehicle":			"Вы не можете приобрести транспорт находясь в другом транспорте",
+	"donate_vehicle_cant_buy_enemy_building":		"Вы не можете приобрести транспорт на территории чужой постройки",
+	"donate_vehicle_setvehiclespawn":				"Вы приобрели транспорт. Используйте setvehiclespawn для изменения точки его респауна",
+
+	"donate_vehicle_setspawn_notinveh":				"Вы должны сидеть в транспорте",
+	"donate_vehicle_setspawn_notyours":				"Это не ваше транспортное средство",
+	"donate_vehicle_setspawn_delay":				"Вы можете изменять респаун только 1 раз в 24 часа",
+	"donate_vehicle_setspawn_inwater":				"Вы не можете установить точку респауна в воде",
+	"donate_vehicle_setspawn_enemy_building":		"Вы не можете установить точку респауна на чужой территории",
+	"donate_vehicle_position_changed":				"Точка респауна транспорта успешно изменена",
+
+	"donate_rembuild_removed":						"Ваша точка строительства была успешно удалена со всеми постройками",
+
+	"donate_expbuild_already_done":					"Ваша точка строительства уже расширена до 2 уровня",
+	"donate_expbuild_successfully":					"Ваша точка строительства была расширена до 2 уровня",
+
 	"donate_item_kit_build": 						"Набор строителя", 
-	"donate_item_kit_build_desc": 					"В данный набор входит:\n15 пачек гвоздей, Молоток, Пила, Топор", 
+	"donate_item_kit_build_desc": 					"В данный набор входит:\n15 пачек гвоздей,\nМолоток,\nПила, Топор", 
 	"donate_item_kit_upper": 						"Набор улучшений", 
 	"donate_item_kit_upper_desc": 					"В данный набор входит:\n25 листов нового металла,\n20 листов ржавого металла", 
 	"donate_item_kit_military": 					"Военный набор", 
-	"donate_item_kit_military_desc": 				"В данный набор входит:\nGPS, Desert Eagle 36 пт., HK416 240 пт.,\nAK74-M 240 пт., Бронежилет, Каска, Рюкзак Hazer", 
+	"donate_item_kit_military_desc": 				"В данный набор входит:\nDesert Eagle 36 пт., HK416 240 пт.,\nAK74-M 240 пт., Бронежилет,\nКаска, Рюкзак Hazer, GPS", 
+	"donate_item_kit_buildpak": 					"Комплект для постройки", 
+	"donate_item_kit_buildpak_desc": 				"В данный набор входит:\n3 фундамента\n3 потолка\n7 стен\n1 дверной проём\n1 дверь", 
+	"donate_item_kit_nails": 						"Коробка гвоздей", 
+	"donate_item_kit_nails_desc": 					"В данный набор входит:\n50 пачек гвоздей", 
+	
 	"donate_item_expbuild": 						"Расширение базы", 
-	"donate_item_expbuild_desc": 					"Данная услуга расширяет территорию точки\nстроительства в два раза и добавляет\nвозможность хранить два транспортых средства", 
+	"donate_item_expbuild_desc": 					"Данная услуга расширяет территорию точки\nстроительства в два раза, даёт возможность\nхранить два транспортых средства, и\nувеличивает время простоя неактивной базы\nдо 14 суток.", 
 	"donate_item_rembuild": 						"Удаление базы", 
 	"donate_item_rembuild_desc": 					"Данная услуга полностью удаляет объекты\nточки строительства", 
 	"donate_item_spawner": 							"Новое место спавна", 
@@ -674,8 +730,8 @@
 	"loot_item_acp_45_special": 					".45 ACP",
 	"loot_item_parabellum_9_19": 					"Parabellum 9x19mm",
 	"loot_item_parabellum_9_19_special": 			"Parabellum 9x19mm",
-	"loot_item_calibre_410": 						".410 caliber",
-	"loot_item_calibre_410_special": 				".410 caliber",
+	"loot_item_calibre_point_12": 						".12 Gauge",
+	"loot_item_calibre_point_12_special": 				".12 Gauge",
 	"loot_item_calibre_762_39": 					"7.62x39mm",
 	"loot_item_calibre_762_39_special": 			"7.62x39mm",
 	"loot_item_calibre_762_25": 					"7.62x25mm",
@@ -734,8 +790,8 @@
 	"loot_item_deagle_special": 					"Desert Eagle",
 	"loot_item_remington870": 						"Remington 870",
 	"loot_item_remington870_special": 				"Remington 870",
-	"loot_item_m870": 								"M870",
-	"loot_item_m870_special": 						"M870",
+	"loot_item_mp43": 								"MP 43",
+	"loot_item_mp43_special": 						"MP 43",
 	"loot_item_xm1014": 							"XM1014",
 	"loot_item_xm1014_special": 					"XM1014",
 	"loot_item_mac10": 								"MAC-10",
@@ -1136,6 +1192,6 @@
 	"admin_command_refuelpetrols": 					"Восстановить бензозаправки",
 	"admin_command_reloot": 						"Релут сервера",
 	"admin_command_respawnvehicles": 				"Респавн всего транспорта",
-	"admin_command_respawnthisvehicle": 			"Респавн текущего транспорта",
+	"admin_command_respawnthisvehicle": 			"Респавн текущего транспорта"
 
 }]

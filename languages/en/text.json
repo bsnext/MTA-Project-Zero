@@ -146,6 +146,26 @@
 	"building_created_point":						"Point of construction is successfully set",
 	"building_replaced_point":						"Point of construction is successfully moved",
 	"building_in_vehicle":							"You cannot create object being in vehicle",
+	
+	"building_rules_so_close":						"The buildings are too close",
+	
+	"building_rules_floor_sky":						"Building should be placed in the open air",
+	"building_rules_floor_placed":					"Building should be placed on surface",
+	"building_rules_floor_can_not_here":			"Building can not be placed over another base build",
+	
+	"building_rules_roof_sky":						"Building can not be placed without support point",
+	"building_rules_roof_not_enough_points":		"Not enough support points for place build",
+	
+	"building_rules_wall_placed":					"Building should be placed on another base building",
+	"building_rules_wall_can_not_here":				"Building can not be placed here",
+	"building_rules_wall_not_exactly":				"Building should be placed even on base building",
+	
+	"building_rules_door_placed":					"Bulding should be placed in the doorway and on base building",
+	"building_rules_door_no_down":					"Building should be placed on another base building",
+	"building_rules_door_no_top":					"Building should be placed under the door base building",
+	"building_rules_door_not_exactly":				"Building should be placed even in the doorway",
+	
+	"building_perfect":								"Perfrect! Now you can build that by pressing \"Enter\"",
 
 	"craft_title":									"CRAFT",
 	"craft_batnails_rule_hammer":					"To craft a baseball bat with nails need a hammer",
@@ -165,10 +185,15 @@
 	"donate_item_kit_build_desc": 					"This set includes:\n15 packs of nails, Hammer, Saw, Axe", 
 	"donate_item_kit_upper": 						"Improvements kit", 
 	"donate_item_kit_upper_desc": 					"This set includes:\n25 sheets of metal,\n20 sheets of rusted metal", 
-	"donate_item_kit_military": 					"Millitary kit", 
+	"donate_item_kit_military": 					"Military kit", 
 	"donate_item_kit_military_desc": 				"This set includes:\nGPS, Desert Eagle 36 пт., HK416 240 cr.,\nAK74-M 240 cr., Armour, Helmet, Hazer Backpack", 
+	"donate_item_kit_buildpak": 					"Construction kit", 
+	"donate_item_kit_buildpak_desc": 				"This set includes:\n3 foundation\n3 roof\n7 walls\n1 wall with a doorway\n1 door", 
+	"donate_item_kit_nails": 						"Nails box", 
+	"donate_item_kit_nails_desc": 					"his set includes:\n50 packs of nails",
+
 	"donate_item_expbuild": 						"Expansion of base", 
-	"donate_item_expbuild_desc": 					"This service expands territory of construction\npoint and adds ability to store two vehicles", 
+	"donate_item_expbuild_desc": 					"This service expands territory of construction\npoint, adds ability to store two vehicles, and\nextend inactive base time to 14 days", 
 	"donate_item_rembuild": 						"Delete of base", 
 	"donate_item_rembuild_desc": 					"This service completely removes objects\npoints of construction", 
 	"donate_item_spawner": 							"New spawn place", 
@@ -176,6 +201,35 @@
 	"donate_item_vehicle": 							"Personal transport", 
 	"donate_item_vehicle_desc": 					"This service allows you to buy a personal\ntransport, which in the future it will\nbe possible to open and close", 
 	
+	"donate_respawner_cant_buy_enemy_building":		"You can not select respawn point not in your building",
+
+	"kit_build_purchase":							"You purchase buider's kit",
+	"kit_military_purchase":						"You purchase military kit",
+	"kit_upper_purchase":							"You purchase improvements kit",
+	"kit_nails_purchase":							"You purchase nails box",
+	"kit_buildpak_purchase":						"You purchase construction kit",
+	
+	"donate_kit_cant_invehicle":					"You can not purchase kit in vehicle",
+	"donate_building_not_exists":					"You not have own point for building",
+	
+	"donate_vehicle_cant_buy_inwater":				"You can not purchase vehicle in water",
+	"donate_vehicle_cant_buy_inhome":				"You can not purchase vehicle in house",
+	"donate_vehicle_cant_buy_invehicle":			"You can not purchase vehicle in another vehicle",
+	"donate_vehicle_cant_buy_enemy_building":		"You can not purchase vehicle not in your vehicle",
+	"donate_vehicle_setvehiclespawn":				"You purchase vehicle. Use setvehiclespawn for change respawn position",
+	
+	"donate_vehicle_setspawn_notinveh":				"You should be in vehicle",
+	"donate_vehicle_setspawn_notyours":				"It not your vehicle",
+	"donate_vehicle_setspawn_delay":				"You can change position only 1 time in 24 hours",
+	"donate_vehicle_setspawn_inwater":				"You can not set respawn position on water",
+	"donate_vehicle_setspawn_enemy_building":		"You can not set respawn position not in your building",
+	"donate_vehicle_position_changed":				"Vehicle respawn position successful changed.",
+	
+	"donate_rembuild_removed":						"Your buldings removed",
+	
+	"donate_expbuild_already_done":					"Your building already 2 level",
+	"donate_expbuild_successfully":					"Your building was level up up to 2",
+
 	"house_not_keys":								"You don't have keys or scrap in hands to open the door",
 	"house_break_keys":								"It seems that the key broke",
 
@@ -673,8 +727,8 @@
 	"loot_item_acp_45_special": 					".45 ACP",
 	"loot_item_parabellum_9_19": 					"Parabellum 9x19mm",
 	"loot_item_parabellum_9_19_special": 			"Parabellum 9x19mm",
-	"loot_item_calibre_410": 						".410 caliber",
-	"loot_item_calibre_410_special": 				".410 caliber",
+	"loot_item_calibre_point_12": 					".12 Gauge",
+	"loot_item_calibre_point_12_special": 			".12 Gauge",
 	"loot_item_calibre_762_39": 					"7.62x39mm",
 	"loot_item_calibre_762_39_special": 			"7.62x39mm",
 	"loot_item_calibre_762_25": 					"7.62x25mm",
@@ -733,8 +787,8 @@
 	"loot_item_deagle_special": 					"Desert Eagle",
 	"loot_item_remington870": 						"Remington 870",
 	"loot_item_remington870_special": 				"Remington 870",
-	"loot_item_m870": 								"M870",
-	"loot_item_m870_special": 						"M870",
+	"loot_item_mp43": 								"MP 43",
+	"loot_item_mp43_special": 						"MP 43",
 	"loot_item_xm1014": 							"XM1014",
 	"loot_item_xm1014_special": 					"XM1014",
 	"loot_item_mac10": 								"MAC-10",
@@ -1134,6 +1188,6 @@
 	"admin_command_refuelpetrols": 					"Refuel petrols",
 	"admin_command_reloot": 						"Reloot server",
 	"admin_command_respawnvehicles": 				"Respawn all vehicles",
-	"admin_command_respawnthisvehicle": 			"Respawn this vehicle",
+	"admin_command_respawnthisvehicle": 			"Respawn this vehicle"
 
 }]
