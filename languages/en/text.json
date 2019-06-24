@@ -18,8 +18,9 @@
 	"familiar_tell":								"Now this player sees your name",
 	"familiar_say":									"Player told you his name",
 
-	"unbug": 										"%.3d SECONDS LEFT BEFORE RESPAWN",
+	"unbug": 										"%.3d SECONDS LEFT BEFORE RESPAWN\nDO NOT MOVE",
 	"unbug_in_building": 							"You can not commit respawn while on a building",
+	"unbug_cancelled": 							    "Returning to spawn is cancelled.",
 	
 	"skills_title":									"SKILLS",
 	"skill_name_stamina":							"Stamina",
