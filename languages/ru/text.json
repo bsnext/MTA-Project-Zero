@@ -18,8 +18,9 @@
 	"familiar_tell":								"Теперь этот игрок видит Ваше имя",
 	"familiar_say":									"Игрок сказал Вам свое имя",
 
-	"unbug": 										"ДО РЕСПАВНА ОСТАЛОСТЬ %.3d СЕКУНД",
+	"unbug": 										"ДО РЕСПАВНА ОСТАЛОСТЬ %.3d СЕКУНД\nОСТАВАЙТЕСЬ НА МЕСТЕ",
 	"unbug_in_building": 							"Вы не можете совершить респавн находясь на территории постройки",
+	"unbug_cancelled": 							    "Возвращение на случайный спавн отменено.",
 
 	"skills_title":									"Навыки",
 	"skill_name_stamina":							"Выносливость",
@@ -1121,7 +1122,7 @@
 	"loot_item_shirt_bamow": 						"Белая камуфляжная куртка",
 	"loot_item_shirt_bamow_special": 				"белую камуфляжную куртку",
 	"loot_item_shirt_polob": 						"Синяя полосатая кофта",
-	"loot_item_shirt_polob_special": 				"синию полосатую кофту",
+	"loot_item_shirt_polob_special": 				"синюю полосатую кофту",
 	"loot_item_shirt_poloc": 						"Зеленая полосатая кофта",
 	"loot_item_shirt_poloc_special": 				"зеленую полосатую кофту",
 	"loot_item_shirt_polog": 						"Серая полосатая кофта",
@@ -1129,7 +1130,7 @@
 	"loot_item_shirt_polor": 						"Красная полосатая кофта",
 	"loot_item_shirt_polor_special": 				"красную полосатую кофту",
 	"loot_item_shirt_sweatb": 						"Синяя кофта",
-	"loot_item_shirt_sweatb_special": 				"синию кофту",
+	"loot_item_shirt_sweatb_special": 				"синюю кофту",
 	"loot_item_shirt_sweatd": 						"Коричневая кофта",
 	"loot_item_shirt_sweatd_special": 				"коричневую кофту",
 	"loot_item_shirt_sweatg": 						"Зеленая кофта",
