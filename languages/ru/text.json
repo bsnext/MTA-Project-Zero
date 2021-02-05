@@ -13,7 +13,7 @@
 	"reloot_process":								"РЕЛУТ СЕРВЕРА",
 	"reloot_tick":									"ДО РЕЛУТА ОСТАЛОСТЬ %.2d СЕКУНД",
 	"antirelog": 									"АНТИРЕЛОГ %.2d СЕКУНД",
-	"exp_need":										"Необходимо %d единиц опыта",
+	"craft_level_need":								"Необходим %d уровень навыка \"Создание предметов\"",
 
 	"familiar_tell":								"Теперь этот игрок видит Ваше имя",
 	"familiar_say":									"Игрок сказал Вам свое имя",
@@ -23,10 +23,34 @@
 	"unbug_cancelled": 							    "Возвращение на случайный спавн отменено.",
 
 	"skills_title":									"Навыки",
+	"skill_maximum":							    "Достигнут предел",
+	"skill_level":							        "Ур",
+	"skill_level_up":							    "Навык \"%s\" увеличен до %s уровня!",
+	
+	"skill_level_up_stamina":						"Влияние переносимого веса уменьшено на %s%%",
+	"skill_level_up_immunity":						"Шанс получить заражение уменьшен на %s%%",
+	"skill_level_up_power":							"Урон в ближнем бою увеличен на %s%%",
+	"skill_level_up_regeneration":					"Восстановление здоровья увеличено на %s ед.",
+	"skill_level_up_farming":						"Шанс собрать семена увеличен на %s%%\nШанс собрать больше урожая увеличен на %s%%\nШанс собрать урожай высокого качества увеличен на %s%%",
+	"skill_level_up_craft":							"Скорость крафта увеличена на %s%%",
+	"skill_level_up_technique":						"Скорость ремонта увеличена на %s%%",
+	"skill_level_up_medic":							"Эффективность медикаментов увеличена на %s%%",
+
+	"skill_level_up_technique_1":					"Доступен ремонт самолётов",
+	"skill_level_up_technique_2":					"Доступен ремонт вертолётов",
+
+	"skill_level_up_craft_1":					    "Доступны новые рецепты крафта",
+	"skill_level_up_craft_2":					    "Доступны новые рецепты крафта",
+	"skill_level_up_craft_3":					    "Доступны новые рецепты крафта",
+
 	"skill_name_stamina":							"Выносливость",
 	"skill_name_immunity":							"Иммунитет",
-	"skill_name_power":								"Сила удара",
+	"skill_name_power":								"Сила",
 	"skill_name_regeneration":						"Здоровье",
+	"skill_name_farming":							"Фермерство",
+	"skill_name_craft":								"Создание предметов",
+	"skill_name_technique":							"Ремонт техники",
+	"skill_name_medic":								"Медицина",
 
 	"action_setspawn": 								"Вы действительно хотите установить спавн в этом месте?",
 	"action_suicide": 								"Вы действительно хотите совершить суицид?",
@@ -41,6 +65,7 @@
 	"help_inventory.open": 							"Открыть инвентарь",
 	"help_corpse": 									"Взаимодействовать с телом",
 	"help_vehicle": 								"Взаимодействовать с транспортом",
+	"help_object": 									"Взаимодействовать с объектом",
 	"help_minigun": 								"Выйти из за пулемёта",
 	"help_house.enter": 							"Зайти в дом",
 	"help_petrol": 									"Заправить авто или канистру",
@@ -153,7 +178,7 @@
 	"building_rules_so_close":						"Постройки расположены слишком близко",
 	
 	"building_rules_floor_sky":						"Постройка должна располагаться под открытым небом",
-	"building_rules_floor_placed":					"Постройка должна быть надёжно закреплена в поверхности",
+	"building_rules_floor_placed":					"Постройка должна быть надёжно закреплена на поверхности",
 	"building_rules_floor_can_not_here":			"Постройка не может быть установлена поверх другой постройки",
 	
 	"building_rules_roof_sky":						"Постройка не может висеть без точки опоры",
@@ -167,6 +192,8 @@
 	"building_rules_door_no_down":					"Постройка должна быть надёжно закреплена на поверхности",
 	"building_rules_door_no_top":					"Постройка должна быть надёжно закреплена в проёме",
 	"building_rules_door_not_exactly":				"Постройка должна быть установлена ровно в проёме",
+
+	"building_rules_box_placed":					"Постройка должна быть надёжно закреплена на поверхности",
 	
 	"building_perfect":								"Отлично! Теперь вы можете закончить строительство, нажав \"Enter\"",
 
@@ -174,15 +201,33 @@
 	"craft_batnails_rule_hammer":					"Для крафта биты с гвоздями нужен молоток",
 	"craft_board_rule_saw":							"Для крафта доски нужна пила",
 
+	"craft_list_level_0":							"Можно создать с любым уровнем навыка \"Создание предметов\"",
+	"craft_list_level_1":							"Необходим 1 уровень навыка \"Создание предметов\"",
+	"craft_list_level_2":							"Необходим 2 уровень навыка \"Создание предметов\"",
+	"craft_list_level_3":							"Необходим 3 уровень навыка \"Создание предметов\"",
+
+	"airdrop_message":								"Аирдроп был сброшен в районе %s",
+	"airdrop_place_sfairport":						"аэропорта San Fierro",
+	"airdrop_place_shadycreeks":					"Shady Creeks",
+	"airdrop_place_flintrange":						"фермы на Flint Range",
+	"airdrop_place_lsairport":						"аэропорта Los Santos",
+	"airdrop_place_dillimore":						"Dillimore",
+	"airdrop_place_area0":							"Зоны 0",
+	"airdrop_place_bayside":						"окрестностей Bayside",
+
 	"donate_title":									"Донат",
 	"donate_buy":									"Купить",
+	"donate_choose":								"Выбрать",
 	"donate_service":								"Услуга",
 	"donate_name":									"Название",
 	"donate_price":									"Цена",
 	"donate_buy_error":								"Недостаточно средств для покупки",
 	"donate_givecar":								"Вы действительно хотите отдать ключ от этого транспорта?\nБудьте внимательны - вы потеряете все права на этот транспорт.\nАдминистрация не несёт ответственности за ваши действия.",
-	"donate_balance":								"Текущий баланс: %d Zero Coins",
-	"donate_helps":									"По вопросам пополнения игрового баланса: \nhttp://vk.com/mta.zombie\n\nОплата возможна следющими платёжными системами:",
+	"donate_balance":								"Текущий баланс:",
+	"donate_helps_1":								"Приобрести Zero Coins вы можете в автоматическом режиме на\nофициальной странице проекта MTA Project Zero:",
+	"donate_helps_2":								"Весь процесс автоматизирован, и после оплаты вы мгновенно\nполучите код-активации на адрес эл. почты указанный при покупке",
+	"donate_helps_3":								"Доступные способы оплаты:",
+	"donate_products":								"Список доступных товаров:",
 	
 	"donate_respawner_cant_buy_enemy_building":		"Вы не можете выбрать точку респауна на территории чужой постройки",
 
@@ -235,6 +280,12 @@
 	"donate_item_spawner_desc": 					"Данная услуга дает Вам возможность установить\nпостоянное место спавна в любой точке карты", 
 	"donate_item_vehicle": 							"Личный транспорт", 
 	"donate_item_vehicle_desc": 					"Данная услуга позволяет купить личный\nтранспорт, который в дальнейшем можно будет\nоткрывать и закрывать только Вам.", 
+
+	"donate_item_vehicle_info_default": 			"Максимальная скорость: %s км/ч.\nПривод: %s\nОбъём бака: %s л.\nВместимость предметов: %s шт.", 
+	"donate_item_vehicle_info_motorcycle": 			"Максимальная скорость: %s км/ч.\nОбъём бака: %s л.\nВместимость предметов: %s шт.", 
+	"donate_item_vehicle_info_drivetype_rwd":		"Задний", 
+	"donate_item_vehicle_info_drivetype_fwd":		"Передний", 
+	"donate_item_vehicle_info_drivetype_awd":		"4х4", 
 	
 	"house_not_keys":								"У Вас нет ключей или монтировки в руках чтобы открыть дверь",
 	"house_break_keys":								"Похоже, что ключ сломался",
@@ -245,6 +296,8 @@
 	"water_fill_flask_done":						"Вы наполнили фляжку",
 
 	"repair_toolbox_not_found":						"У Вас нет набора инструментов для ремонта",
+	"repair_helicopter_level_not_found":			"Необходим 2 уровень навыка \"Ремонт техники\" для ремонта вертолётов",
+	"repair_plane_level_not_found":					"Необходим 1 уровень навыка \"Ремонт техники\" для ремонта самолётов",
 	"repair_car_status":							"Ремонтирует машину",
 	"repair_car_healthy":							"Эта машина не требует ремонта",
 	"repair_car_done":								"Ремонт машины закончен",
@@ -255,8 +308,11 @@
 	"repair_boat_healthy":							"Этот катер не требует ремонта",
 	"repair_boat_done":								"Ремонт катера закончен",
 	"repair_helicopter_status":						"Ремонтирует вертолет",
+	"repair_plane_status":							"Ремонтирует самолёт",
 	"repair_helicopter_healthy":					"Этот вертолет не требует ремонта",
+	"repair_plane_healthy":							"Этот самолёт не требует ремонта",
 	"repair_helicopter_done":						"Ремонт вертолета закончен",
+	"repair_plane_done":							"Ремонт самолёта закончен",
 
 	"stick_status": 								"Отламывает палку",
 	"stick_done": 									"Вы отломали палку",
@@ -300,11 +356,40 @@
 	"achievements_get_trade_name": 					"Хорошее предложение",
 	"achievements_get_trade_description": 			"Совершить обмен с торговцем",
 	"achievements_get_metal_name": 					"Железный аргумент",
-	"achievements_get_metal_description": 			"Отправить руду на переплавку",
+	"achievements_get_metal_description": 			"Выплавить железный лист",
 
 	"binoculars_in_vehicle":						"Вы не можете взять бинокль находясь в транспортном средстве",
 	"binoculars_off_status":						"Убрал бинокль",
 	"binoculars_on_status":							"Взял бинокль",
+	
+	"circle_back":									"Назад",	
+
+	"circle_changewalk":							"Изменить стиль ходьбы",	
+	"circle_walkmode_1":							"Спокойный",
+	"circle_walkmode_2":							"Обычный",
+	"circle_walkmode_3":							"Бег",
+
+	"circle_animation":							    "Выбрать анимацию",	
+	"circle_stopanimation":							"Отменить анимацию",	
+	"circle_animation_1":							"Сидеть",		
+	"circle_animation_2":							"Лежать",		
+	"circle_animation_3":							"- Стой!",		
+	"circle_animation_4":							"- Иди сюда!",		
+	"circle_animation_5":							"Разговаривать",		
+	"circle_animation_6":							"- Да пошёл ты!",		
+	"circle_animation_7":							"Поднять руки",	
+
+	"circle_opendoor":							    "Открыть транспорт",
+	"circle_closedoor":							    "Закрыть транспорт",	
+	
+	"circle_engineoff":							    "Заглушить двигатель",
+	"circle_engineon":							    "Завести двигатель",	
+	
+	"circle_lightsoff":							    "Выключить фары",
+	"circle_lightson":							    "Включить фары",	
+	
+	"vehicle_detach":							    "Открепиться",
+	"vehicle_attach":							    "Закрепиться",	
 
 	"flashlight_in_vehicle":						"Вы не можете включить фонарик находясь в транспортном средстве",
 
@@ -328,6 +413,7 @@
 	"herbs_in_vehicle":								"Вы не можете установить грядку находясь в транспортном средстве",
 	"herbs_in_house":								"Вы не можете установить грядку находясь в доме",
 	"herbs_create_status":							"Установил грядку",
+	"herbs_in_building":							"Вы не можете собрать бочку находясь на территории постройки",
 
 	"barricade_repair_done":						"Баррикада успешно отремонтирована",
 	"barricade_repair_not_woods":					"Для ремонта баррикады необходимо одно бревно",
@@ -336,6 +422,7 @@
 	"barricade_in_vehicle":							"Вы не можете установить баррикаду находясь в транспортном средстве",
 	"barricade_in_house":							"Вы не можете установить баррикаду находясь в доме",
 	"barricade_create_status":						"Установил баррикаду",
+	"barricade_in_building":						"Вы не можете установить баррикаду находясь на территории постройки",
 
 	"flare_in_vehicle":								"Вы не можете поджечь фаер находясь в транспортном средстве",
 	"flare_in_house":								"Вы не можете поджечь фаер находясь в доме",
@@ -351,6 +438,7 @@
 	"barrel_in_vehicle":							"Вы не можете собрать бочку находясь в транспортном средстве",
 	"barrel_in_house":								"Вы не можете собрать бочку бревна находясь в доме",
 	"barrel_create_status":							"Установил бочку",
+	"barrel_in_building":							"Вы не можете собрать бочку находясь на территории постройки",
 
 	"bonfire_matches_not_found":					"Чтобы разжечь костер необходимы спички",
 	"bonfire_create_status":						"Разложил бревна для костра",
@@ -361,6 +449,7 @@
 	"bonfire_cooked_done":							"Дождитесь окончания прожарки мяса",
 	"bonfire_cooked_status":						"Жарит мясо",
 	"bonfire_meat_not_found":						"У Вас нет сырого мяса для жарки",
+	"bonfire_in_building":							"Вы не можете разложить бревна находясь на территории постройки",
 
 	"stove_repair_done":							"Печка успешно отремонтирована",
 	"stove_repair_not_rock":						"Для ремонта печки необходим камень",
@@ -374,6 +463,7 @@
 	"stove_melt_done":								"Дождитесь окончания обработки руды",
 	"stove_melt_status":							"Обрабатывает руду",
 	"stove_ore_not_found":							"У Вас нет руды для обработки",
+	"stove_in_building":							"Вы не можете разложить печку находясь на территории постройки",
 	
 	"tent_create_status":							"Разложил палатку",
 	"tent_not_empty":								"Вы не можете свернуть палатку в которой что-то лежит",
@@ -383,9 +473,12 @@
 
 	"placer_out_space":								"Недопустимое место для установки",
 	
+	"item_craft_status": 						    "Собирает новый предмет",
+	
 	"trap_create_status":							"Разложил противотанковый еж",
 	"trap_in_vehicle":								"Вы не можете разложить противотанковый еж находясь в транспортном средстве",
 	"trap_in_house":								"Вы не можете разложить противотанковый еж находясь в доме",
+	"trap_in_building":								"Вы не можете разложить противотанковый еж находясь на территории постройки",
 
 	"mine_create_status":							"Разложил мину",
 	"mine_in_vehicle":								"Вы не можете разложить мину находясь в транспортном средстве",
@@ -395,12 +488,12 @@
 	"notebook_new_write":							"Сделать запись",
 	"notebook_save_write":							"Сохранить запись",
 
-	"weapon_reload_status": 						"Зарядил оружее",
-	"weapon_unreload_status": 						"Разрядил оружее",
+	"weapon_reload_status": 						"Зарядил оружие",
+	"weapon_unreload_status": 						"Разрядил оружие",
 	"weapon_on": 									"Вытащил %s",
 	"weapon_off": 									"Убрал %s",
 	"weapon_not_calibre": 							"Для данного оружия нет патронов нужного калибра",
-	"weapon_not_part": 								"Вы не можете установить это на указанное оружее",
+	"weapon_not_part": 								"Вы не можете установить это на указанное оружие",
 
 	"form_on_status": 								"Надел %s",
 	"form_off_status": 								"Снял %s",
@@ -413,6 +506,8 @@
 	"inventory_open_shirt_status": 					"Обыскивает одежду",
 	"inventory_open_trouses_status": 				"Обыскивает одежду",
 	"inventory_open_tent_status": 					"Обыскивает палатку",
+	"inventory_open_bonfire_status": 				"Обыскивает костёр",
+	"inventory_open_stove_status": 					"Обыскивает печку",
 	"inventory_open_corpse_status": 				"Обыскивает труп",
 	"inventory_open_box_status": 					"Обыскивает коробку",
 	"inventory_open_crate_status": 					"Обыскивает ящик",
@@ -453,6 +548,8 @@
 	"inventory_group_vicinity_crate": 				"СОДЕРЖИМОЕ ЯЩИКА",
 	"inventory_group_vicinity_tent": 				"СОДЕРЖИМОЕ ПАЛАТКИ",
 	"inventory_group_vicinity_crashed_vehicle": 	"СОДЕРЖИМОЕ МАШИНЫ",
+	"inventory_group_vicinity_bonfire": 			"СОДЕРЖИМОЕ КОСТРА",
+	"inventory_group_vicinity_stove": 				"СОДЕРЖИМОЕ ПЕЧИ",
 	"inventory_group_vicinity_corpse": 				"ИНВЕНТАРЬ ТРУПА",
 	"inventory_condition_excellent": 				"Отличное",
 	"inventory_condition_good": 					"Хорошее",
@@ -516,7 +613,7 @@
 	"interactive_timing_plant": 					"ПРОВЕРИТЬ ЗРЕЛОСТЬ",
 	"interactive_break_plant": 						"СЛОМАТЬ РАСТЕНИЕ",
 	"interactive_check_corpse": 					"ОБЫСКАТЬ ТРУП",
-	"interactive_check": 							"ОБЫСКАТЬ",
+	"interactive_check": 							"СОДЕРЖИМОЕ",
 	"interactive_hide_corpse": 						"ЗАКОПАТЬ",
 	"interactive_death_corpse": 					"ПРИЧИНА СМЕРТИ",
 	"interactive_pickup": 							"ПОДОБРАТЬ",
@@ -524,9 +621,7 @@
 	"interactive_bonfire_off": 						"ПОТУШИТЬ КОСТЕР",
 	"interactive_stove_on": 						"РАЗЖЕЧЬ ПЕЧКУ",
 	"interactive_stove_off": 						"ПОТУШИТЬ ПЕЧКУ",
-	"interactive_melt_ore": 						"ОБРАБОТАТЬ РУДУ",
 	"interactive_tent_build": 						"СВЕРНУТЬ",
-	"interactive_tent_check": 						"СОДЕРЖИМОЕ",
 	"interactive_fill_barrel": 						"НАПОЛНИТЬ БОЧКУ",
 	"interactive_fill_vehicle": 					"ЗАПРАВИТЬ АВТО",
 	"interactive_fill_jerrycan": 					"НАПОЛНИТЬ КАНИСТРУ",
@@ -549,7 +644,6 @@
 	"interactive_owner": 							"ВЫДАТЬ КЛЮЧ",
 	"interactive_unowner": 							"ЗАБРАТЬ КЛЮЧ",
 	"interactive_blow": 							"ВЗОРВАТЬ",
-	"interactive_cook_meat": 						"ПОЖАРИТЬ МЯСО",
 	"interactive_skinned": 							"ОСВЕЖЕВАТЬ",
 	"interactive_move": 							"ПЕРЕМЕСТИТЬ",
 	"interactive_trade": 							"ТОРГОВЛЯ",
@@ -571,10 +665,14 @@
 	"organism_supercooling": 						"ПЕРЕОХЛАЖДЕНИЕ",
 	"organism_drought": 							"ВОДА",
 	"organism_infection": 							"ЗАРАЖЕНИЕ",
-	"organism_radiation": 							"РАДИОАКТИВНОЕ ЗАРАЖЕНИЕ",
+	"organism_radiation": 							"ОБЛУЧЕНИЕ",
+	"organism_radiationProtect": 					"ЗАЩИТА ОТ РАДИАЦИИ",
 	"organism_leg": 								"ПЕРЕЛОМ",
+	"organism_bonfire": 							"ОЧАГ",
+	"organism_overmedic": 							"ЛЕКАРСТВЕННАЯ БОЛЕЗНЬ",
 	"organism_bleeding": 							"КРОВОТЕЧЕНИЕ",
 	"organism_health": 								"ЗДОРОВЬЕ",
+	"organism_breath": 								"КИСЛОРОД",
 	"organism_full_hunger": 						"Чувствую себя сытым",
 	"organism_full_drought": 						"Мне еще долго не захочется пить",
 	"organism_broken_leg":							"Похоже, я сломал ногу",
@@ -602,6 +700,7 @@
 	"occupant_tank_status":							"Садится в танк",
 	"occupant_motorcycle_status":					"Садится в мотоцикл",
 	"occupant_helicopter_status":					"Садится в вертолет",
+	"occupant_plane_status":						"Садится в самолёт",
 	"occupant_bike_status":							"Садится на велосипед",
 	"occupant_boat_status":							"Садится в катер",
 
@@ -651,6 +750,7 @@
 	"settings_title": 								"ПОЛЬЗОВАТЕЛЬСКИЕ НАСТРОЙКИ",
 	"settings_chat": 								"Отображать чат",
 	"settings_organism": 							"Отображать показатели персонажа",
+	"settings_compactstat": 						"Компактные показатели персонажа",
 	"settings_weapon": 								"Отображать HUD оружия",
 	"settings_vehicle": 							"Отображать HUD транспорта",
 	"settings_helps": 								"Отображать подсказки",
@@ -664,6 +764,9 @@
 	"settings_lods": 								"Включить дальнюю прорисовку объектов",
 	"settings_lbg": 								"Светлый фон в инвентаре",
 	"settings_mouse": 								"Инверсия кнопок мышки в инвентаре",
+	"settings_dof": 								"Глубина резкости",
+	"settings_joinquit": 							"Показывать сообщения о входах и выходах из игры",
+	"settings_hints": 								"Показывать подсказки в чате",
 
 	"adrenalin_1": 									"Чувствую себя бодрее",
 	"adrenalin_2":									"Чувствую прилив сил",
@@ -675,7 +778,10 @@
 	"infection_2": 									"Я чувствую что началось заражение",
 	"infection_3": 									"Я чувствую сильную боль",
 	"infection_4": 									"Нужно скорее обработать рану",
-	"radiation_1": 									"Похоже, я получил сильное облучение",
+	"radiation_1": 									"Похоже я получил дозу радиации",
+	"infectiongas_1": 								"Ох чёрт, не стоило это вдыхать",
+	"infectiongas_2": 								"От этой вони мне поплохело",
+	"infectiongas_3": 								"Я ещё пожалею что вдохнул эту дрянь",
 	"infection_progress_1": 						"Чувствую себя ужасно",
 	"infection_progress_2": 						"Нужно быстрее найти вакцину",
 	"radiation_progress_1": 						"Чувствую себя ужасно",
@@ -685,6 +791,7 @@
 	"badrag_2": 									"Я получил заражение от грязной тряпки",
 	"poisoning_1": 									"Похоже, я получил отравление",
 	"poisoning_2": 									"Состояние еды было плохое и я получил отравление",
+	"false_medicine": 								"Мне кажется что не стоило употреблять это сейчас",
 
 	"loot_action_get_seeds": 						"Получить семена",
 	"loot_action_fill": 							"Заправить",
@@ -737,8 +844,8 @@
 	"loot_item_acp_45_special": 					".45 ACP",
 	"loot_item_parabellum_9_19": 					"Parabellum 9x19mm",
 	"loot_item_parabellum_9_19_special": 			"Parabellum 9x19mm",
-	"loot_item_calibre_point_12": 						".12 Gauge",
-	"loot_item_calibre_point_12_special": 				".12 Gauge",
+	"loot_item_calibre_point_12": 					".12 Gauge",
+	"loot_item_calibre_point_12_special": 			".12 Gauge",
 	"loot_item_calibre_762_39": 					"7.62x39mm",
 	"loot_item_calibre_762_39_special": 			"7.62x39mm",
 	"loot_item_calibre_762_25": 					"7.62x25mm",
@@ -917,6 +1024,8 @@
 	"loot_item_spirit_special": 					"медицинский спирт",
 	"loot_item_vaccine": 							"Вакцина",
 	"loot_item_vaccine_special": 					"вакцину",
+	"loot_item_antirad": 							"Анти-рад",
+	"loot_item_antirad_special": 					"анти-рад",
 	"loot_item_stimulator": 						"Стимулятор",
 	"loot_item_stimulator_special": 				"стимулятор",
 	"loot_item_medkit": 							"Аптечка",
@@ -987,8 +1096,8 @@
 	"loot_item_barricade_special": 					"баррикаду",
 	"loot_item_bonfire": 							"Дрова для костра",
 	"loot_item_bonfire_special": 					"дрова для костра",
-	"loot_item_stove": 								"Печка для руды",
-	"loot_item_stove_special": 						"печку для руды",
+	"loot_item_stove": 								"Печка",
+	"loot_item_stove_special": 						"печку",
 	"loot_item_flare": 								"Фаер",
 	"loot_item_flare_special": 						"фаер",	
 	"loot_item_tent": 								"Палатка",
@@ -1009,10 +1118,10 @@
 	"loot_item_armour_spec_special": 				"бронежилет Tactic",
 	"loot_item_armour_camo": 						"Камуфляжный бронежилет",
 	"loot_item_armour_camo_special": 				"камуфляжный бронежилет",
+	"loot_item_sight_holo": 						"Голографический прицел",
+	"loot_item_sight_holo_special": 				"голографический прицел",
 	"loot_item_sight_spot": 						"Точечный прицел",
 	"loot_item_sight_spot_special": 				"точечный прицел",
-	"loot_item_sight_line": 						"Линейный прицел",
-	"loot_item_sight_line_special": 				"линейный прицел",
 	"loot_item_cmp_tactic": 						"Компенсатор",
 	"loot_item_cmp_tactic_special": 				"компенсатор",
 	"loot_item_sd_bottle": 							"Самодельный глушитель",
@@ -1175,6 +1284,10 @@
 	"loot_item_shoes_classicg_special": 			"зеленые ботинки",
 	"loot_item_shoes_classicw": 					"Бежевые ботинки",
 	"loot_item_shoes_classicw_special": 			"бежевые ботинки",
+	
+	"loot_item_present": 							"Подарок",
+	"loot_item_present_special": 					"подарок",
+	"present_open_reward": 					        "Вы открыли подарок и получили +%s ZC.",
 
 	"admin_title": 									"ПАНЕЛЬ АДМИНИСТРАТОРА",
 	"admin_action_give": 							"ВЫДАТЬ",
@@ -1203,6 +1316,21 @@
 	"admin_command_refuelpetrols": 					"Восстановить бензозаправки",
 	"admin_command_reloot": 						"Релут сервера",
 	"admin_command_respawnvehicles": 				"Респавн всего транспорта",
-	"admin_command_respawnthisvehicle": 			"Респавн текущего транспорта"
+	"admin_command_respawnthisvehicle": 			"Респавн текущего транспорта",
+	
+    "chatinfo_help":								"Возникли трудности? Нажми F1 чтобы посмотреть базовые настройки управления",
+    "chatinfo_discord":								"Тебе грустно и одиноко? Заходи на наш Discord сервер: discord.gg/CcxPpBU",
+    "chatinfo_donate":								"Жмёт кошелёк? Жми F4! Узнай о том, как поддержать проект и получить плюшки",
+	"chatinfo_vkgroup":								"Присоединяйся к MTA Project Zerо ВКонтакте и узнавай новости первым: vk.com/mta.pzero",
+	
+	"chatinfo_join":								"%s вошел в игру",
+	"chatinfo_quit":								"%s покинул игру (%s)",
+	"chatinfo_failjoin":							"%s пытался ворваться к пацанам, но оказался в бане ¯\\_(ツ)_/¯",
+
+	"quit_reason_quit":								"Выход",
+	"quit_reason_kick":								"Кикнут",
+	"quit_reason_kicksys":							"Кикнут системой",
+	"quit_reason_ban":								"Забанен",
+	"quit_reason_timeout":							"Обрыв связи"
 
 }]
