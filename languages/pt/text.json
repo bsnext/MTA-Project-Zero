@@ -1225,15 +1225,15 @@
         "plant_item_raspberry": "framboesa",
         "loot_category_armour": "Armadura",
         "building_error_create_away_base": "Você deve ser a base para o início da construção",
-        "vehicle_detach": "Detach from vehicle",
-        "vehicle_attach": "Attach to vehicle",
+        "vehicle_detach": "desgrudar do veículo",
+        "vehicle_attach": "grudar no veículo",
         "loot_item_antirad": "Anti-Rad",
         "loot_item_antirad_special": "anti-rad",
-        "herbs_in_building": "You cannot set garden bed being in building area",
-        "barricade_in_building": "You cannot set a barricade being in building area",
-        "barrel_in_building": "You cannot set a barrel being in building area",
-        "bonfire_in_building": "You cannot set a bonfire being in building area",
-        "stove_in_building": "You cannot set a stove being in building area",
-        "trap_in_building": "You cannot set anti-tank trap being in building area"
+        "herbs_in_building": "Você não pode colocar o canteiro de jardim na área de construção",
+        "barricade_in_building": "Você não pode colocar uma barricada estando na área de construção",
+        "barrel_in_building": "Você não pode colocar um barril na área de construção",
+        "bonfire_in_building": "Você não pode colocar uma fogueira estando na área de construção",
+        "stove_in_building": "Você não pode colocar um fogão estando na área de construção",
+        "trap_in_building": "Você não pode colocar a armadilha estando na área de construção"
     }
 ]
